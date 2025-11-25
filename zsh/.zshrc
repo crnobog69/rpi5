@@ -120,6 +120,7 @@ alias refresh='source ~/.zshrc'
 # ls | lsd
 # alias ls='lsd -1'
 alias ls='lsd --group-directories-first'
+alias lsa='ls -a'
 
 # OLLAMA ----------------------------------------------------
 
@@ -181,3 +182,5 @@ export PATH="/home/lain/.bun/bin:$PATH"
 
 . "$HOME/.atuin/bin/env"
 eval "$(atuin init zsh)"
+
+export ENTE_CLI_SECRETS_PATH=~/.config/ente/secrets.txt
